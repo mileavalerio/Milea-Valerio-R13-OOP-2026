@@ -39,6 +39,7 @@ int main()
             c = fgetc(f);
         }
         s += myatoi(nr, nrc);
+        fclose(f);
         printf("%d\n", s);
         return 0;
     }
